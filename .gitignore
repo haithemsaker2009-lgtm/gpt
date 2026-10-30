@@ -1,0 +1,32 @@
+# Secrets and local configuration
+.env
+.env.*
+!.env.example
+*api_key*
+*token*
+*secret*
+*password*
+*.pem
+*.key
+*.session
+*_config.json
+*_memory.json
+
+# Runtime / development artifacts
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+node_modules/
+.cache/
+logs/
+*.log
+.DS_Store
+Thumbs.db
+
+# Local databases and user data
+*.sqlite
+*.sqlite3
+*.db
+data/
+userdata/
